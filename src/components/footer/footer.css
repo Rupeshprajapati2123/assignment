@@ -1,0 +1,38 @@
+.cd{
+    padding:3.1rem 4.5rem;
+    background-color: #2e2e2e;
+    color: white;
+}
+.t{
+    font-size: 1.17rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.u{
+    font-size: 1rem;
+}
+li{
+    list-style: none;
+}
+.p{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 20vw;
+    margin-top: 7vh;
+    flex-wrap: wrap;
+}
+.icon{
+    color:white;
+    text-decoration: none;
+    /* size:1rem; */
+    font-size: 1.5rem;
+    margin-right:1rem;
+}
+.upp{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.u:hover{
+    color:rgb(49, 84, 182);
+}

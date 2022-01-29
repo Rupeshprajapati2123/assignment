@@ -1,0 +1,24 @@
+input{
+box-sizing: border-box;
+width: 30%;
+height: 40px;
+padding: 15px 20px;
+border-radius: 50px;
+border: 2px solid grey;}
+.nav{
+    display: flex;
+    padding:20px 100px 15px 60px;
+    justify-content: space-between;
+    align-items: center;
+}
+/* @media  */
+@media only screen and (max-width: 600px) {
+    .nav{
+        flex-direction: column;
+
+    }
+    input{
+        margin-top: 2rem;
+        width: 80%;
+    }
+  }

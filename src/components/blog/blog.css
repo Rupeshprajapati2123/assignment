@@ -1,0 +1,40 @@
+p{
+    font-size: 30px;
+}
+.blog{
+    padding: 3.1rem 4.2rem 3.1rem 4.2rem;
+   
+}
+.img{
+    height: 400px;
+    width: 360px;
+}
+.xx{
+    font-size: 20px;
+    
+}
+section{
+    width: 360px;
+    height: 470px;
+    margin:1rem;
+}
+.section2{
+    width: 25rem;
+    height: 11rem;
+    margin:1rem;
+}
+.con{
+    display: flex;
+    overflow-x: auto;
+    /* overflow:hidden; */
+    position: static;
+    box-sizing: border-box;
+}
+.con::-webkit-scrollbar {
+    display: none;
+}
+@media only screen and (max-width: 600px) {
+    .blog{
+        padding:1rem;
+    }
+  }

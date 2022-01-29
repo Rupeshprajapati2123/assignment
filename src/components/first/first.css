@@ -1,0 +1,51 @@
+.first{
+    
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 15vh;
+
+}
+#button:hover{
+background-color: black;
+}
+.app{
+    background-color: #cacaca;
+    height: 550px;
+}
+.head{
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+    box-sizing: border-box;
+    font-size: 4.5vw;
+    font-weight: 300;
+    color: #fff;
+
+}
+.btncont{
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* flex-direction: column; */
+    width: 100%;
+    margin-top:25vh;
+    background-color: #cacaca;
+    padding:0 30vw 0 30vw;
+    /* height: 550px; */
+}
+button{
+    width: 200px;
+    padding: 15px;
+    border: none;
+    background-color: #6b6b6b;
+    color: #fff;
+    transform: scale(1);
+    transition: all .5s;
+    cursor: pointer;
+}
+@media only screen and (max-width: 600px) {
+    .btncont{
+        flex-direction: column;
+    }
+  }
