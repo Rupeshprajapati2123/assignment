@@ -6,25 +6,19 @@ export default function Blog() {
       <p>Most Popular Courses</p>
       <div className='con'>
           <section  className='section2'>
-            <One num="187" about="No. of trainings offered"/>
+            <One num="23549" about="No. of trainings offered"/>
             </section>
           <section className='section2'>
-            <One num="23524" about="this"/>
+            <One num="159" about="Number  of training sessions conducted"/>
             </section>
           <section className='section2'>
-            <One num="187" about="this"/>
+            <One num="187" about="Number of jobs available"/>
             </section>
           <section className='section2'>
-            <One num="187" about="this"/>
+            <One num="158" about="Number of career supported"/>
             </section>
           <section className='section2'>
-            <One num="187" about="this"/>
-            </section>
-          <section className='section2'>
-            <One num="187" about="this"/>
-            </section>
-          <section className='section2'>
-            <One num="187" about="this"/>
+            <One num="2.5L" about="Number of candidated enrolled till date"/>
             </section>
           
       </div>
